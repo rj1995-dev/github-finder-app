@@ -1,0 +1,25 @@
+.img {
+  margin-top: 7px;
+}
+@media screen and (min-width: 768px) {
+  .users-style {
+    padding: 2rem;
+    display: grid;
+    width: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .users-style {
+    padding: 2rem;
+    display: grid;
+    width: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+}
+.text-style {
+  margin-bottom: 1rem;
+}
