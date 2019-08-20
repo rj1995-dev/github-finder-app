@@ -1,0 +1,14 @@
+.card {
+  padding: 1rem;
+  border: #ccc 1px dotted;
+  margin: 0.7rem 0;
+}
+a {
+  color: #dc3545;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+a:hover {
+  color: #666;
+}
