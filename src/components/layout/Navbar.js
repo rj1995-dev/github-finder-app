@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 export class Navbar extends Component {
   static defaultProps = {
@@ -11,6 +12,14 @@ export class Navbar extends Component {
           <i className="fab fa-github p-1" />
           {this.props.title}
         </h2>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+        </ul>
       </nav>
     );
   }

@@ -2,4 +2,6 @@
   margin: 1rem auto;
   width: auto;
   padding: 1rem;
+  /* padding: 0 2rem; */
+  overflow: hidden;
 }
