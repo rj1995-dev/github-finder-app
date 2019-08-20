@@ -63,7 +63,12 @@ export class User extends Component {
                 <p>{bio}</p>
               </Fragment>
             )}
-            <a href={html_url} className="btn btn-profile btn-dark my-1">
+            <a
+              href={html_url}
+              className="btn btn-profile btn-dark my-1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Visit Github Profile
             </a>
             <ul>
