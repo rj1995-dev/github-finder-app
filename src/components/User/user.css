@@ -22,11 +22,6 @@
   }
 }
 
-/* @media screen and (max-width: 700px) {
-  .hide-sm {
-    display: none;
-  }
-} */
 .text-style {
   margin-bottom: 1rem;
 }
@@ -87,12 +82,9 @@ strong {
   text-align: center;
 }
 .badge {
-  /* display: block; */
   font-size: 0.8rem;
   padding: 0.2rem 0.7rem;
   text-align: center;
   margin: 0.3rem;
-  /* background: #f4f4f4; */
-  /* color: #333; */
   border-radius: 5px;
 }
