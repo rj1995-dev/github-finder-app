@@ -63,7 +63,7 @@
   transition: opacity 0.2s ease-in;
   outline: none;
 }
-.card {
+.card-1 {
   padding: 1rem;
   border: #ccc 1px dotted;
   margin: 0.7rem 0;
@@ -96,11 +96,3 @@ strong {
   /* color: #333; */
   border-radius: 5px;
 }
-/* .list {
-  margin: 0.5rem 0;
-}
-
-.list li {
-  padding-bottom: 0.3rem;
-} */
-/* Mobile Styles */

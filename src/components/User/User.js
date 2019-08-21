@@ -99,7 +99,7 @@ export class User extends Component {
             </ul>
           </div>
         </div>
-        <div className="text-center">
+        <div className="card-1 text-center">
           <div className="badge badge-danger">Followers: {followers}</div>
           <div className="badge badge-success">Following: {following}</div>
           <div className="badge badge-primary">
