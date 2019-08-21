@@ -4,14 +4,15 @@
 
 /* Navbar */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
   padding: 0.7rem 2rem;
-  z-index: 1;
+  /* z-index: 1; */
   width: 100%;
   opacity: 0.9;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
+  /* text-decoration: none; */
 }
 
 .navbar ul {
@@ -27,4 +28,5 @@
 
 .navbar a:hover {
   color: #f4f4f4;
+  text-decoration: none;
 }
