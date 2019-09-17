@@ -5,3 +5,10 @@
   /* padding: 0 2rem; */
   overflow: hidden;
 }
+.container1 {
+  height: 100%;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

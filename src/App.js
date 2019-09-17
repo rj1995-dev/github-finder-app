@@ -9,6 +9,7 @@ import Search from "./components/User/Search";
 import User from "./components/User/User";
 import Alert from "./components/layout/Alert";
 import About from "./Pages/About";
+import NotFound from './Pages/NotFound'
 import axios from "axios";
 
 class App extends Component {
@@ -111,6 +112,7 @@ class App extends Component {
                   />
                 )}
               />
+              <Route component={NotFound}/>
             </Switch>
           </div>
         </div>
